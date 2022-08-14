@@ -1,0 +1,147 @@
+body {
+  background-image: url(./bg/bg1.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: fixed;
+  align-content: center;
+  margin: 0px;
+  height: 100vh;
+  
+}
+
+* {
+  color: rgb(88, 86, 86);
+}
+
+#container-flex {
+  height: 420px;
+  width: 350px;
+  background-color: white;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+}
+
+#login-register-btn-container-flex {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+  margin-top: 40px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  /* margin-top: 120px; */
+  width: 275px;
+  margin: 120px auto;
+  position: relative;
+}
+
+.input-area {
+  margin: 10px;
+  border: none;
+}
+
+#input-area {
+  border-bottom: 1px solid gray;
+  background: transparent;
+}
+
+.btn {
+  margin: 0px;
+  padding: 10px;
+  padding-left: 22px;
+  padding-right: 22px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border: none;
+  color: rgb(75, 74, 74);
+  cursor: pointer;
+}
+
+#login-register-btn-container-flex {
+  box-shadow: 0px 0px 8px #bea1a3;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  width: 175px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+#login {
+  background: linear-gradient(to left, rgb(127 167 174), rgb(243 243 237));
+} 
+
+#register {
+  background-color: white;
+} 
+
+#submit {
+  margin-top: 20px;
+  padding: 10px;
+  padding-left: 22px;
+  padding-right: 22px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background: linear-gradient(to left, rgb(127 167 174), rgb(243 243 237));
+}
+
+#login-form {
+  margin: 36px;
+  bottom: 20px;
+}
+
+#register-form {
+  margin: -420px;
+  margin-left: 400px;
+  top: 190px;
+}
+
+/* #register-form .input-area {
+  background: transparent;
+} */
+.icons {
+  height: 50px;
+  width: 50px;
+  background-color: aqua;
+}
+
+#icon_cont {
+  /* display: inline-block; */
+  top:30px;
+  font-size: 30px;
+  width: 130px;
+  margin-left: auto;
+  margin-right: auto;
+ 
+}
+#fb{
+    margin: 5px;
+    margin-right: 8px;
+    text-shadow: 2px 1px 3px gray;
+  
+}
+#ig{
+    margin: 5px;
+    margin-right: 8px;
+    margin-left: 8px;
+    text-shadow: 2px 1px 3px gray;
+}
+#git{
+    margin: 5px;
+    margin-left: 8px;
+    text-shadow: 2px 1px 3px gray;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Register Page</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="./script.js"></script>
+
+</head>
+
+<body>
+    <div id="container-flex">
+        <div id="login-register-btn-container-flex">
+           
+                <button type="button" class="btn" id="login" onclick="login()">Log In</button>
+                <button type="button" class="btn" id="register" onclick="register()">Register</button>
+         
+        </div>
+
+        <div id="icon_cont">
+            <i class="fa-brands fa fa-facebook-f" id="fb" style="color: rgb(127 167 174); "></i>
+            <i class="fa-brands fa fa-instagram" id="ig" style="color: rgb(127 167 174); "></i>
+            <i class="fa-brands fa fa-github" id="git" style="color: rgb(127 167 174); "></i>
+        </div>
+
+        <form id="login-form" class="form-container">
+            <input type="text" class="input-area" id="input-area" placeholder="Username">
+            <input type="text" class="input-area" id="input-area" placeholder="Password">
+            <div id="ckeckbox" class="input-area">
+                <input type="checkbox" name="password" id="Rem-pass">
+                <span>Remember Password</span>
+            </div>
+            <button type="submit" class="btn" id="submit">Log In</button>
+        </form>
+
+        <form id="register-form" class="form-container">
+            <input type="text" class="input-area" id="input-area" placeholder="Username">
+            <input type="email" class="input-area" id="input-area" placeholder="Email">
+            <input type="text" class="input-area" id="input-area" placeholder="Password">
+            <div id="ckeckbox" class="input-area">
+                <input type="checkbox" name="password" id="Rem-pass">
+                <span>I agree to the terms & conditions</span>
+            </div>
+            <button type="submit" class="btn" id="submit">Register</button>
+        </form>
+
+    </div>
+    <script src="./script.js"></script>
+   
+</body>
+
+</html>
